@@ -91,6 +91,26 @@ h2 {
     height: auto;
 }
 
+.botao-whatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.botao-whatsapp img {
+    width: 80px;
+    height: 80px;
+}
+
+.botao-whatsapp p {
+    font-weight: 600;
+    color: #0b2545;
+    margin: 0;
+}
+
 footer {
     background-color: #0b2545;
     color: #fff;
